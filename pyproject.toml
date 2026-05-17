@@ -1,0 +1,12 @@
+[project]
+name = "memory-scramble-game"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=26.3.1",
+    "flake8>=7.3.0",
+    "pygame>=2.6.1",
+    "pytest>=9.0.3",
+]
