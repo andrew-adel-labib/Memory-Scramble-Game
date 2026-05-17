@@ -30,7 +30,6 @@
 
 Beyond gameplay, this project is a showcase of **professional software engineering practices** — modular architecture, OOP design, centralized logging, custom exception handling, automated testing, CI/CD pipelines, and clean Git collaboration workflows.
 
-> Built as a capstone project for the *Software Construction Tools* course.
 
 ---
 
@@ -76,8 +75,7 @@ memory-scramble-game/
 │   └── icons/                   # PNG card icons
 │
 ├── docs/
-│   ├── architecture.md
-│   └── gameplay.md
+│   └── screenshots
 │
 ├── logs/
 │   └── game.log                 # Runtime logs
@@ -117,8 +115,8 @@ memory-scramble-game/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/memory-scramble-game.git
-cd memory-scramble-game
+git clone https://github.com/andrew-adel-labib/Memory-Scramble-Game.git
+cd Memory-Scramble-Game
 ```
 
 ### 2. Set Up the Environment
@@ -202,14 +200,6 @@ black src tests
 
 ---
 
-## 📸 Screenshots
-
-| Main Menu | Gameplay | Victory | Game Over |
-|---|---|---|---|
-| *(coming soon)* | *(coming soon)* | *(coming soon)* | *(coming soon)* |
-
----
-
 ## 📝 Logging
 
 All runtime events are written to `logs/game.log`:
@@ -282,15 +272,6 @@ Place font files inside `assets/fonts/`:
 ```
 Poppins-Regular.ttf   Poppins-Bold.ttf   Orbitron-Regular.ttf
 ```
-
----
-
-## 📖 Documentation
-
-Extended documentation lives in `docs/`:
-
-- [`architecture.md`](docs/architecture.md) — Module structure & design decisions
-- [`gameplay.md`](docs/gameplay.md) — Detailed game rules & flow diagrams
 
 ---
 
