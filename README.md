@@ -252,10 +252,8 @@ git push origin main
 
 | Name | Responsibility |
 |---|---|
-| **Andrew** | Utilities, CI/CD (`.github/`), `requirements.txt`, `pyproject.toml`, `uv.lock`, test suite |
-| **Abdelgawad** | Core game logic — board generation, card matching, timer, win/lose conditions |
-| **Bassandah** | UI & rendering — menus, game screens, HUD, hover effects, themes |
-
+| **Andrew** | Utilities, Services, CI/CD (`.github/`), `requirements.txt`, `pyproject.toml`, `uv.lock`, test suite |
+| **Bassandah** | Core game logic, UI & rendering — board generation, card matching, timer, win/lose conditions, menus, game screens, HUD, hover effects, themes |
 ---
 
 ## 📂 Assets
